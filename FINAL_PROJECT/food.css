@@ -1,0 +1,65 @@
+body {
+    background-color:beige; padding:0px; margin:0px
+}
+
+#wrapper { width: 90%; margin-left: auto; margin-right:auto; }
+
+h1 {
+    text-align: center; font-family: "Goudy Old Style","Book Antiqua","Times New           Roman","Georgia", serif; color:darkgreen; text-transform: uppercase;
+    text-height: auto; font-size: 80px; padding: 0px; margin: 0px;
+}
+
+h2 { text-align: center; color:darkolivegreen; }
+
+
+nav { padding:0px; display: table; display: block; background-color: burlywood }
+
+nav ul  { margin: 0px 10px; padding: 10px 10px; }
+
+nav li { display: inline; margin: 0px 89px;  }
+
+nav a {font-size: 50px; text-decoration: none;}
+
+ul.leaf{ list-style-image: url(leaf.png) }
+
+li { color: black; }
+
+a:link { color:black; }
+
+a:hover { color:blueviolet; }
+
+a:visited { color:floralwhite}
+
+p { color:black; text-align: left; padding:10px; }
+
+footer {
+    font-style: italic; text-align: center; font-family: "Georgia", "Times New           Roman", serif;
+}
+
+#food { background-image: url(food4.jpg); height: 750px; background-repeat: no-repeat; background-size: 100% 100%; max-width: 100%; }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 64em) {
+    h1 { font-size: 57px}
+    nav a { font-size: 45px; margin: 0px 31px; padding: 10px 10px; }
+    nav li {  padding: 10px 0px; margin: 0px 10px;  }
+    nav ul { text-align: center; font-weight: bold; padding: 0px; margin: 0px; }
+    #food { background-image: url(food4.jpg); height: 450px; background-repeat: no-repeat; background-size: 100% 100%; max-width: 100%; }
+
+}
+
+@media only screen and (max-width: 37.5em) {
+    #food {background-image: none; height: 0px; }
+    h1 { font-size: 380%; padding: 0px; }
+    nav { padding:0px}
+    nav li { display: block; border: 2px solid #330000; width: calc(100% - 4px); background-color:burlywood; margin: 1px 0px;  }
+    nav a { font-size: 3em; text-decoration: none; }
+    p { color:black; text-align: left; padding:10px; }
+    h2 { text-align: center; color:darkolivegreen; }
+
